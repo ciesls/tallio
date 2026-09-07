@@ -9,7 +9,7 @@ The site is plain HTML and CSS; GitHub Pages serves the repository root from `ma
 - `screenshots/`: real iPhone Simulator captures using sample data, refreshed 6 September 2026.
 - `sitemap.xml`: public page URLs.
 
-The privacy policy is maintained separately at [Tallio Legal](https://ciesls.github.io/tallio-legal/).
+The privacy policy lives at [`legal/privacy.html`](legal/privacy.html) so the product, support, and legal pages deploy together.
 
 To preview locally, run `python3 -m http.server 8000` and open `http://localhost:8000`.
 No package installation or build step is required.
@@ -21,5 +21,4 @@ Do not use a guessed App Store URL.
 Internal links and assets are relative so the site supports both the `/tallio/` project path
 and a future custom-domain root. When a domain is purchased, configure it in GitHub Pages,
 set the domain provider's DNS records, and update canonical, Open Graph, Twitter image,
-and sitemap URLs. Keep HTTPS enabled. The separate legal site remains at its current URL
-until it is deliberately migrated.
+and sitemap URLs. Keep HTTPS enabled.
