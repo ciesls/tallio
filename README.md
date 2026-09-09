@@ -6,7 +6,7 @@ The site is plain HTML and CSS; GitHub Pages serves the repository root from `ma
 - `index.html`: product description, feature tour, Free and Pro, and frequently asked questions.
 - `support.html`: contact and troubleshooting.
 - `styles.css`: shared responsive design.
-- `screenshots/`: real iPhone Simulator captures using sample data, refreshed 6 September 2026.
+- `screenshots/`: real iPhone Simulator captures using sample data. The seven website images in `screenshots/framed/` were refreshed 9 September 2026 using silver iPhone 17 Pro frames applied with frames-cli, with transparent WebP exports and no embedded marketing headlines.
 - `sitemap.xml`: public page URLs.
 
 The privacy policy lives at [`legal/privacy.html`](legal/privacy.html) so the product, support, and legal pages deploy together.
