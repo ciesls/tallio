@@ -23,3 +23,6 @@ Internal links and assets are relative so the site supports both the `/tallio/` 
 and a future custom-domain root. When a domain is purchased, configure it in GitHub Pages,
 set the domain provider's DNS records, and update canonical, Open Graph, Twitter image,
 and sitemap URLs. Keep HTTPS enabled.
+
+
+September 22 product refresh: compact interactive feature tour, Siri and Shortcuts stories, Free/Pro comparison, and fresh Activity captures from app commit 4d5a1cc on iOS 27. Activity images use frames-cli silver iPhone 17 Pro frames (1350×2760). The site remains pre-launch; no mailing-list data is collected. Product styles are in product.css; support and legal documents retain styles.css.
