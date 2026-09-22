@@ -6,7 +6,8 @@ The site is plain HTML and CSS; GitHub Pages serves the repository root from `ma
 - `index.html`: product description, feature tour, Free and Pro, and frequently asked questions.
 - `support.html`: contact and troubleshooting.
 - `styles.css`: shared responsive design.
-- `screenshots/`: real iPhone Simulator captures using sample data. The seven website images in `screenshots/framed/` were refreshed 9 September 2026 using silver iPhone 17 Pro frames applied with frames-cli, with transparent WebP exports and no embedded marketing headlines.
+- `screenshots/`: real iPhone Simulator captures using sample data. The website images in `screenshots/framed/` were refreshed 9 September 2026 using silver iPhone 17 Pro frames applied with frames-cli, with transparent WebP exports and no embedded marketing headlines.
+- Analytics overview and insights imagery was refreshed from the approved 21 September 2026 ASC captures, keeping device-only frames. Shortcuts, Siri, and Apple Intelligence copy reflects the current native actions and their language, Pro, and device requirements.
 - `sitemap.xml`: public page URLs.
 
 The privacy policy lives at [`legal/privacy.html`](legal/privacy.html) so the product, support, and legal pages deploy together.
