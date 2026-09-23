@@ -109,3 +109,26 @@ h1,h2,h3 { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",san
 @media(max-width:800px) { .automation-heading,.automation-foundation { grid-template-columns:1fr; gap:25px; } .analytics-pair { gap:22px; } .analytics-canvas { padding:28px 10px; } .analytics-canvas .device { width:92%; } }
 @media(max-width:480px) { .analytics-pair { grid-template-columns:1fr; gap:38px; } .analytics-canvas .device { width:72%; } .automation-card { padding:26px 22px; } .automation-heading h2 { font-size:3.15rem; } }
 .automation { color:var(--ink); }
+
+/* Shared site design: keeps Support and Legal in step with the product page (product.css). */
+h1,h2,h3 { font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif; font-weight:700; letter-spacing:-.03em; }
+h1 { font-size:clamp(3.75rem,7vw,5.875rem); line-height:.98; letter-spacing:-.035em; }
+h2 { font-size:clamp(2.5rem,4.6vw,3.875rem); line-height:1.04; }
+h1 em,h2 em { font-style:normal; font-weight:inherit; }
+.support-hero h1 { font-size:clamp(3.75rem,7vw,5.875rem); }
+.support-intro h2,.contact-inner h2 { font-size:clamp(2.5rem,4.6vw,3.875rem); }
+.eyebrow-mark { display:none; }
+.brand { font-size:1.5rem; letter-spacing:-.02em; }
+.site-nav .nav-cta { padding:10px 18px; border-radius:999px; }
+.site-nav .nav-cta:hover { background:#3a372f; }
+.button { min-height:44px; padding:15px 24px; border-radius:14px; font-size:.875rem; font-weight:600; letter-spacing:0; }
+.button:hover { transform:none; }
+.button-dark:hover { background:#3a372f; }
+summary { font-size:1.0625rem; font-weight:650; }
+summary::after { font-size:1.5rem; font-weight:400; line-height:1; }
+.pagenav { border-radius:20px; }
+.pagenav a { border-radius:999px; }
+.legal-main h1 { font-size:clamp(3.75rem,7vw,5.875rem) !important; font-weight:700 !important; line-height:.98 !important; letter-spacing:-.035em !important; }
+.legal-main > section h2 { font-weight:700 !important; letter-spacing:-.02em !important; }
+@media (max-width:800px) { h1,.support-hero h1,.legal-main h1 { font-size:3.625rem !important; } }
+@media (max-width:520px) { h1,.support-hero h1,.legal-main h1 { font-size:3.3rem !important; } h2,.support-intro h2,.contact-inner h2 { font-size:2.375rem; } }
