@@ -15,8 +15,8 @@ The privacy policy lives at [`legal/privacy.html`](legal/privacy.html) so the pr
 To preview locally, run `python3 -m http.server 8000` and open `http://localhost:8000`.
 No package installation or build step is required.
 
-Tallio for iPhone is available on the [App Store](https://apps.apple.com/app/id6793468900).
-The iPad feature-tour panel previews the native Activity layout coming in Tallio 1.3.
+Tallio for iPhone and iPad is available on the [App Store](https://apps.apple.com/app/id6793468900).
+The iPad feature-tour panel shows the native Activity layout in Tallio 1.3.
 Download links and the official Apple badge point to that listing. Tallio is free; Tallio Pro
 is a one-time household unlock. Prices verified on Apple’s public listings on November 16, 2026:
 US $4.99 and 24,99 zł in Poland. Other storefront prices may vary.
